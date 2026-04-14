@@ -137,8 +137,8 @@ const featuredWorks: WorkCard[] = [
     domain: 'Platform Engineering',
     year: '2026',
     summary:
-      'A repository for the Bliss 4i platform focused on architecture, implementation, and platform-level capabilities.',
-    impact: 'Open-source repository available for exploration and contribution.',
+      'Bliss 4i is the fourth iteration of the Bliss Platform, where Bliss evolves from a simple runtime into a broader ecosystem of compilers, package managers, and standard libraries.',
+    impact: 'Defines the ecosystem direction and implementation baseline for future Bliss releases.',
     projectLink: 'https://github.com/bliss-platform/bliss-4i'
   },
   {
@@ -146,8 +146,8 @@ const featuredWorks: WorkCard[] = [
     domain: 'Search and Discovery',
     year: '2026',
     summary:
-      'A focused search experience project with an emphasis on practical UX and retrieval performance.',
-    impact: 'Actively maintained in a public GitHub repository.',
+      'A Windows desktop app for finding files and folders quickly using filter pipelines.',
+    impact: 'Comes with day-to-day usage documentation for practical workflow adoption.',
     projectLink: 'https://github.com/MayukhChakrabortyDX/bolt-search'
   },
   {
@@ -155,8 +155,8 @@ const featuredWorks: WorkCard[] = [
     domain: 'Systems and Computing',
     year: '2026',
     summary:
-      'A project exploring essential computing concepts and implementation choices through executable artifacts.',
-    impact: 'Public repo used as an evolving knowledge and build space.',
+      'A Minecraft mod that brings realistic computers into the game by emulating a custom-architecture virtual machine.',
+    impact: 'Connects low-level architecture ideas with an interactive sandbox environment.',
     projectLink: 'https://github.com/MayukhChakrabortyDX/essential-computers'
   }
 ]
@@ -165,21 +165,24 @@ const ongoingWorks: OngoingWork[] = [
   {
     title: 'Bliss 4i',
     phase: 'Active Development',
-    focus: 'Expanding platform capabilities and architecture for the Bliss 4i ecosystem.',
+    focus:
+      'Transitioning Bliss from a runtime into a full ecosystem with compilers, package managers, and standard libraries.',
     progress: 71,
     repoLink: 'https://github.com/bliss-platform/bliss-4i'
   },
   {
     title: 'Bolt Search',
     phase: 'Iteration',
-    focus: 'Improving search relevance, UX flow, and production readiness.',
+    focus:
+      'Improving the Windows filter-pipeline workflow for fast file and folder discovery in day-to-day use.',
     progress: 64,
     repoLink: 'https://github.com/MayukhChakrabortyDX/bolt-search'
   },
   {
     title: 'Essential Computers',
     phase: 'Build and Expansion',
-    focus: 'Growing practical modules around core computing concepts and system behavior.',
+    focus:
+      'Expanding the custom-architecture VM that powers realistic in-game computers in Minecraft.',
     progress: 58,
     repoLink: 'https://github.com/MayukhChakrabortyDX/essential-computers'
   }
