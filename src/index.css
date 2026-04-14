@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --scrollbar-track: rgba(241, 232, 219, 0.92);
+  --scrollbar-thumb: #9f4b22;
+  --scrollbar-thumb-hover: #7f3a19;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #2b231f;
+  background:
+    radial-gradient(circle at 12% 14%, rgba(205, 141, 95, 0.2), transparent 26%),
+    radial-gradient(circle at 88% 10%, rgba(70, 102, 77, 0.18), transparent 22%),
+    linear-gradient(165deg, #f5ecde 0%, #f8f4eb 45%, #f1e8db 100%);
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Keeps the scrollbar aligned with the existing retro-modern palette. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #b76436 0%, var(--scrollbar-thumb) 72%);
+  border-radius: 999px;
+  border: 2px solid var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
